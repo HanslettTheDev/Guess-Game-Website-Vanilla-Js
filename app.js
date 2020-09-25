@@ -61,7 +61,7 @@ function guessHistory(guessed) {
 
 // display history 
 // Use a while loopp to go through the guess history numbers array and use string
-// concatenation to display the message
+// concactenation to display the message
 function historyBox() {
     let i = guessedNumbers.length - 1;
     let message = "<ul class='list-group'>";
